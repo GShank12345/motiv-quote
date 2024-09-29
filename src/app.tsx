@@ -131,7 +131,7 @@ var initialState: UIState = {
   //  fontcolor:"#ff0099"
 };
 
- fetch('https://nvyn2qbgz9.execute-api.us-east-1.amazonaws.com/default/textauthcanva').then( (response) =>  response.json())
+ fetch('Your-url').then( (response) =>  response.json())
  .then ( async (data) =>  {
      if (!data) {
          alert("Error getting the OPEN AI KEY")
